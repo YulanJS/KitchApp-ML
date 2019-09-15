@@ -1,0 +1,121 @@
+#allspice,ground
+apples
+artichoke
+avocado
+bacon,package
+baking soda
+bananas
+basil,spice,herb
+beans,can,pack
+broth carton,stock,beef,chicken,vegetable
+bell pepper,red,yellow,green
+black olives
+black pepper,shaker,box,container
+bok choy
+bread,package
+broccoli,raw
+brown sugar,bag
+butter,stick,tub
+cabbage
+canned tomatoes
+carrot
+cauliflower
+cayenne pepper spice
+celery
+cheese,bag,block,slices,cheddar,mozzarella
+cherries
+chicken breast,raw,package
+chili powder
+chives
+cilantro
+cocoa powder,box
+coconut
+confectioners sugar
+oil,cooking,vegetable,olive,peanut,avocado
+cornstarch
+cucumber
+dill,spice
+dressing,ranch,italian
+eggs,carton
+eggplant
+fish sauce
+flour,all purpose
+tortilla,package
+heavy cream
+garlic
+garlic salt
+garlic powder
+ginger
+grapes,bag
+green beans
+green onions,scallion
+ground beef,package
+ground cinnamon
+ground cloves
+ground cumin
+ground turkey,package
+ham,package
+hot sauce
+honey,jar,bottle,container
+jalapeno
+jam,jelly,marmalade,preservers
+ketchup
+leeks
+lettuce,head
+lemons
+limes
+syrup,,maple
+margarine
+mayonnaise
+milk,container,bottle,jug,carton
+mint leaves
+miso paste,container
+mango
+molasses,jar,container
+mushrooms,carton -cartoon
+mustard,jar,bottle,spread,package
+mixed nuts,container,jar
+noodle,package,bag
+onion,,white,yellow,red
+onion powder
+oranges
+oregano
+paprika
+parmesan cheese
+parsley leaves
+peanut butter
+pineapple
+plain yogurt
+pork package
+potatoes,,bag
+raisins
+rice,bag,grains,cooked
+rice wine
+rice vinegar
+rosemary
+salmon,package,raw
+salsa,jar
+salt,,shaker,bag
+semisweet chocolate,bag
+sesame oil
+sesame seeds
+shallot
+shortening
+shrimp,raw,package
+soy sauce,bottle
+spinach
+spaghetti sauce,jar,can,container
+steak,raw,package
+strawberries,,box
+sugar,shaker
+thyme spice
+tofu,package
+tomatoes
+turmeric
+vanilla extract
+vanilla bean
+watermelon
+white vinegar
+white wine
+whole cloves
+zucchini
