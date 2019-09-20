@@ -70,11 +70,12 @@ if __name__ == "__main__":
             print(f"===Scraping {limit} images for '{query}'...===")
             arguments = {
                 "keywords": query.replace(",", " "),
-                "suffix_keywords": suffix,
                 "limit": int(limit/num_groups),
                 "output_directory": target_dir,
                 "chromedriver": "/usr/bin/chromedriver",
                 "print_urls": True
             }
+            if suffix:
+                arguments["suffix_keywords"] = suffix
             response.download(arguments)
 
