@@ -42,6 +42,7 @@ if __name__ == "__main__":
     parser.add_argument("--out_dir", required=True, help="path to root output directory. if path doesn't exist, will create")
     parser.add_argument("--num_images_per_query", default=1000, type=int, help="how many images to download per query")
     parser.add_argument("--njobs", type=int, default=1, help="how many parallel scrapers to run")
+    parser.add_argument("--resume", action="store_true", help="don't download if already has many images in dir")
     args = parser.parse_args()
     print(args)
 
@@ -66,7 +67,11 @@ if __name__ == "__main__":
 
         # get files until thingy
         limit = args.num_images_per_query
-        if limit > 0 and num_previously_found < args.num_images_per_query / 2:
+        if args.resume:
+            do_it = True if num_previously_found < args.num_images_per_query / 2 else False
+        else:
+            do_it = True
+        if limit > 0:
             print(f"===Scraping {limit} images for '{query}'...===")
             arguments = {
                 "keywords": query.replace(",", " "),
