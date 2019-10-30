@@ -5,7 +5,7 @@ from PIL import Image
 parser = argparse.ArgumentParser(argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument("root_dir", help="root directory with images")
 parser.add_argument("--dry-run", action="store_true", help="just print files to remove without removing")
-parser.add_argument("--confirm-first", action="store_true", help="confirm before deleting found broken files")
+parser.add_argument("--no_confirm", action="store_true", help="Skip confirmation before deleting")
 
 args = parser.parse_args()
 
@@ -26,12 +26,10 @@ for root, _, files in os.walk(args.root_dir):
                 im.verify()
             except (IOError, SyntaxError) as e:
                 print("Invalid:", path)
-                if args.confirm_first:
-                    to_delete.append(path)
-                elif not args.dry_run:
-                    os.remove(path)
+                to_delete.append(path)
 
-if len(to_delete) > 0:
+print(len(to_delete), "bad files.")
+if len(to_delete) > 0 and not args.dry_run:
     a = ""
     while a.lower() != "y" and a.lower() != "n":
         a = input(f"{len(to_delete)} invalid files found to delete. Do you wish to delete? (y/n): ")
