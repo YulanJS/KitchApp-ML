@@ -1,0 +1,1 @@
+background,metal,wood,table,paper,steel,aluminum,floor,carpet,tile,wall,white wall,white
