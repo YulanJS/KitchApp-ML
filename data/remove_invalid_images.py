@@ -5,7 +5,6 @@ from PIL import Image
 parser = argparse.ArgumentParser(argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument("root_dir", help="root directory with images")
 parser.add_argument("--dry-run", action="store_true", help="just print files to remove without removing")
-parser.add_argument("--no_confirm", action="store_true", help="Skip confirmation before deleting")
 
 args = parser.parse_args()
 
