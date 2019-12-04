@@ -1,6 +1,7 @@
 import os
 import argparse
 from PIL import Image
+from skimage.io import imread
 
 parser = argparse.ArgumentParser(argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument("root_dir", help="root directory with images")
@@ -23,7 +24,8 @@ for root, _, files in os.walk(args.root_dir):
             try:
                 im = Image.open(path)
                 im.verify()
-            except (IOError, SyntaxError) as e:
+                # skim = imread(path) # uncomment if desire skimage. but skimage is weak
+            except (IOError, SyntaxError, ValueError) as e:
                 print("Invalid:", path)
                 to_delete.append(path)
 
