@@ -1,6 +1,8 @@
 # KitchApp
 AI that helps people cook. Machine Learning / Computer Vision project. Look at our [presentation](https://docs.google.com/presentation/d/1Y6iazmbMivtH0TH51ZRa1qjwMB7iyYltEVqyJWQKYVQ/present) to best understand our goals and progress so far.
 
+<a href="https://docs.google.com/presentation/d/1Y6iazmbMivtH0TH51ZRa1qjwMB7iyYltEVqyJWQKYVQ/present"><img src="media/kitchapp.png" width=500></a>
+
 ## Proposal
 
 People often struggle to decide what to cook, especially if they're new to cooking. New cooks don't always know how to use the ingredients in their fridge, and even more advanced cooks may be missing out on new recipes.
