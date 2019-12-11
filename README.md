@@ -1,7 +1,7 @@
 # KitchApp
 AI that helps people cook. Machine Learning / Computer Vision project. Look at our [presentation](https://docs.google.com/presentation/d/1Y6iazmbMivtH0TH51ZRa1qjwMB7iyYltEVqyJWQKYVQ/present) to best understand our goals and progress so far.
 
-<a href="https://docs.google.com/presentation/d/1Y6iazmbMivtH0TH51ZRa1qjwMB7iyYltEVqyJWQKYVQ/present"><img src="media/kitchapp.png" width=500></a>
+<a href="https://docs.google.com/presentation/d/1Y6iazmbMivtH0TH51ZRa1qjwMB7iyYltEVqyJWQKYVQ/present" target="_blank"><img src="media/kitchapp.png" width=600></a>
 
 ## Proposal
 
